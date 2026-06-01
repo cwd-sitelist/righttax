@@ -5476,7 +5476,7 @@ ol.wp-block-rss {
     position: relative
 }
 
-.main-menu ul li.menu-item-has-children>a:after {
+/* .main-menu ul li.menu-item-has-children>a:after {
     content: "\f078";
     display: inline-block;
     position: relative;
@@ -5488,7 +5488,7 @@ ol.wp-block-rss {
     color: var(--title-color);
     -webkit-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out
-}
+} */
 
 .main-menu ul li.menu-item-has-children>a:hover:after {
     content: "\f077";
@@ -5684,7 +5684,7 @@ ol.wp-block-rss {
     background-color: var(--title-color)
 }
 
-@media (max-width: 1399px) {
+@media (max-width: 1200px) {
     .header-button .th-btn {
         display: none
     }
@@ -21638,7 +21638,7 @@ textarea {
 }
 
 .hero-title {
-    font-size: 84px;
+    font-size: 65px;
     text-transform: capitalize;
     margin-bottom: 38px
 }
