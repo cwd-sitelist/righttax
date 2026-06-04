@@ -9167,13 +9167,13 @@ ul.comment-list .th-comment-item:has(.children) .th-post-comment {
 
 @media (max-width: 1299px) {
     .hero-1 .hero-title {
-        font-size: 70px
+        font-size: 65px
     }
 }
 
 @media (max-width: 1199px) {
     .hero-1 .hero-title {
-        font-size: 60px;
+        font-size: 54px;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -webkit-flex-direction: column;
@@ -9193,7 +9193,7 @@ ul.comment-list .th-comment-item:has(.children) .th-post-comment {
 
 @media (max-width: 991px) {
     .hero-1 .hero-title {
-        font-size: 54px;
+        font-size: 48px;
         gap: 19px;
         -webkit-box-orient: initial;
         -webkit-box-direction: initial;
@@ -9268,7 +9268,7 @@ ul.comment-list .th-comment-item:has(.children) .th-post-comment {
     }
 
     .hero-1 .hero-title {
-        font-size: 38px;
+        font-size: 32px;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -webkit-flex-direction: column;
@@ -9281,11 +9281,15 @@ ul.comment-list .th-comment-item:has(.children) .th-post-comment {
         font-size: 16px;
         margin-bottom: 15px
     }
+
+    .th-btn {
+        padding: 19px 10px;
+    }
 }
 
 @media (max-width: 390px) {
     .hero-1 .hero-title {
-        font-size: 36px;
+        font-size: 26px;
         line-height: 1.2
     }
 
@@ -9296,6 +9300,10 @@ ul.comment-list .th-comment-item:has(.children) .th-post-comment {
         -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column
+    }
+    
+    .th-btn {
+        padding: 17px 5px;
     }
 }
 
@@ -9787,7 +9795,7 @@ ul.comment-list .th-comment-item:has(.children) .th-post-comment {
     -webkit-transform: rotate(30deg);
     -ms-transform: rotate(30deg);
     transform: rotate(30deg);
-    animation: spin 10s infinite alternate-reverse
+    animation: spin 25s linear infinite;
 }
 
 .logo-icon-wrap__text span {
@@ -16659,7 +16667,10 @@ textarea {
 }
 
 .service-card:hover .link-btn:hover {
-    color: var(--theme-color)
+    color: var(--white-color);
+    background: var(--theme-color);
+    padding: 10px 20px;
+    width: 45%;
 }
 
 @media (max-width: 991px) {
@@ -21638,7 +21649,7 @@ textarea {
 }
 
 .hero-title {
-    font-size: 65px;
+    font-size: 67px;
     text-transform: capitalize;
     margin-bottom: 38px
 }
@@ -26262,6 +26273,11 @@ textarea {
         width: 100%;
         right: 0;
         margin-left: auto;
-        margin-right: au
+        margin-right: auto;
     }
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #57a7a5 !important;
+    border-color: #57a7a5 !important;
 }
