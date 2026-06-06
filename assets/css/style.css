@@ -2104,10 +2104,6 @@ textarea.is-invalid {
     color: inherit
 }
 
-.box-title a:hover {
-    color: var(--theme-color)
-}
-
 .box-subtitle {
     margin-bottom: 8px
 }
@@ -6948,8 +6944,8 @@ ol.wp-block-rss {
 }
 
 .footer-layout1 .widget-area {
-    padding-top: 120px;
-    padding-bottom: 70px
+    padding-top: 50px;
+    padding-bottom: 5px
 }
 
 @media (max-width: 1199px) {
@@ -16633,10 +16629,18 @@ textarea {
     right: 0
 }
 
-.service-card:hover {
+.service-card:hover .link-btn{
     -webkit-transform: translateY(-3px);
     -ms-transform: translateY(-3px);
-    transform: translateY(-3px)
+    transform: translateY(-3px);
+    background: var(--white-color);
+    padding: 10px 20px;
+    display: flex;
+    border-radius: 30px;
+}
+
+.btn-width {
+    width: 45%;
 }
 
 .service-card:hover::before {
@@ -16663,14 +16667,14 @@ textarea {
 }
 
 .service-card:hover .link-btn {
-    color: var(--white-color)
+    color: var(--theme-color)
 }
 
 .service-card:hover .link-btn:hover {
-    color: var(--white-color);
-    background: var(--theme-color);
+    color: var(--theme-color);
+    /* background: var(--white-color);
     padding: 10px 20px;
-    width: 45%;
+    width: 45%; */
 }
 
 @media (max-width: 991px) {
@@ -26280,4 +26284,56 @@ textarea {
 .swiper-pagination-bullet-active {
     background-color: #57a7a5 !important;
     border-color: #57a7a5 !important;
+}
+
+.about-1-wrapper .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.about-image{
+    flex: 1;
+}
+
+.about-image img{
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.about-1-wrapper .col-xl-5{
+    flex: 1;
+    max-width: 50%;
+}
+
+@media (max-width: 768px){
+
+    .about-1-wrapper .container{
+        flex-direction: column;
+    }
+
+    .about-1-wrapper .col-xl-5{
+        max-width: 100%;
+    }
+
+    .about-image{
+        width: 100%;
+    }
+}
+
+.breadcumb-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon-width {
+    width: 90px;
+}
+
+.img-height {
+    height: 340px !important;
 }
