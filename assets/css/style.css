@@ -7589,7 +7589,7 @@ ol.wp-block-rss {
     .breadcumb-menu li,
     .breadcumb-menu a,
     .breadcumb-menu span {
-        font-size: 18px
+        font-size: 17px
     }
 
     .breadcumb-title {
@@ -7632,6 +7632,14 @@ ol.wp-block-rss {
 
     .breadcumb-title {
         font-size: 34px
+    }
+}
+
+@media (min-width: 320px) and (max-width: 397px) {
+    .breadcumb-menu li,
+    .breadcumb-menu a,
+    .breadcumb-menu span {
+        font-size: 13px;
     }
 }
 
